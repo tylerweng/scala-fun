@@ -1,0 +1,41 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/tyler/projects/scala-fun/src/main/scala/hello/Greeter.scala:3:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.actor.Actor[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tyler/projects/scala-fun/src/main/scala/hello/Greeter.scala:10:23: not found: type Actor[0m
+[0m[[0m[31merror[0m] [0m[0mclass Greeter extends Actor {[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tyler/projects/scala-fun/src/main/scala/hello/Greeter.scala:11:17: missing parameter type for expanded function[0m
+[0m[[0m[31merror[0m] [0m[0mThe argument types of an anonymous function must be fully known. (SLS 8.5)[0m
+[0m[[0m[31merror[0m] [0m[0mExpected type was: ?[0m
+[0m[[0m[31merror[0m] [0m[0m  def receive = {[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tyler/projects/scala-fun/src/main/scala/hello/Greeter.scala:14:7: not found: value sender[0m
+[0m[[0m[31merror[0m] [0m[0m      sender() ! Greeter.Done[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tyler/projects/scala-fun/src/main/scala/hello/HelloWorld.scala:3:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.actor.{Actor, Props}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tyler/projects/scala-fun/src/main/scala/hello/HelloWorld.scala:5:26: not found: type Actor[0m
+[0m[[0m[31merror[0m] [0m[0mclass HelloWorld extends Actor{[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tyler/projects/scala-fun/src/main/scala/hello/HelloWorld.scala:7:19: not found: value context[0m
+[0m[[0m[31merror[0m] [0m[0m    val greeter = context.actorOf(Props[Greeter], "greeter")[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tyler/projects/scala-fun/src/main/scala/hello/HelloWorld.scala:7:35: not found: value Props[0m
+[0m[[0m[31merror[0m] [0m[0m    val greeter = context.actorOf(Props[Greeter], "greeter")[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tyler/projects/scala-fun/src/main/scala/hello/HelloWorld.scala:10:17: missing parameter type for expanded function[0m
+[0m[[0m[31merror[0m] [0m[0mThe argument types of an anonymous function must be fully known. (SLS 8.5)[0m
+[0m[[0m[31merror[0m] [0m[0mExpected type was: ?[0m
+[0m[[0m[31merror[0m] [0m[0m  def receive = {[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tyler/projects/scala-fun/src/main/scala/hello/HelloWorld.scala:11:26: not found: value context[0m
+[0m[[0m[31merror[0m] [0m[0m    case Greeter.Done => context.stop(self)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tyler/projects/scala-fun/src/main/scala/hello/HelloWorld.scala:11:39: not found: value self[0m
+[0m[[0m[31merror[0m] [0m[0m    case Greeter.Done => context.stop(self)[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/tyler/projects/scala-fun/src/main/scala/hello/Main.scala:5:5: not found: value akka[0m
+[0m[[0m[31merror[0m] [0m[0m    akka.Main.main(Array(classOf[HelloWorld].getName))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m12 errors found[0m
