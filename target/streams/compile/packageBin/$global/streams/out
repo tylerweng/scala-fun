@@ -1,0 +1,31 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/tyler/projects/scala-fun/target/scala-2.12/scala-fun_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hello[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tyler/projects/scala-fun/target/scala-2.12/classes/hello[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hello/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tyler/projects/scala-fun/target/scala-2.12/classes/hello/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hello/Greeter$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tyler/projects/scala-fun/target/scala-2.12/classes/hello/Greeter$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hello/Greeter$Done$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tyler/projects/scala-fun/target/scala-2.12/classes/hello/Greeter$Done$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tyler/projects/scala-fun/target/scala-2.12/classes/HelloWorld$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hello/Greeter$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tyler/projects/scala-fun/target/scala-2.12/classes/hello/Greeter$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hello/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tyler/projects/scala-fun/target/scala-2.12/classes/hello/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hello/HelloWorld$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tyler/projects/scala-fun/target/scala-2.12/classes/hello/HelloWorld$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hello/Greeter$Greet$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tyler/projects/scala-fun/target/scala-2.12/classes/hello/Greeter$Greet$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hello/HelloWorld.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tyler/projects/scala-fun/target/scala-2.12/classes/hello/HelloWorld.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tyler/projects/scala-fun/target/scala-2.12/classes/HelloWorld.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tyler/projects/scala-fun/target/scala-2.12/classes/HelloWorld$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tyler/projects/scala-fun/target/scala-2.12/classes/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hello/Greeter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tyler/projects/scala-fun/target/scala-2.12/classes/hello/Greeter.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

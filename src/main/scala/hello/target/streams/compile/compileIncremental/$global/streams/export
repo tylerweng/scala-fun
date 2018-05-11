@@ -1,0 +1,1 @@
+scalac -bootclasspath /Users/tyler/.sbt/boot/scala-2.12.6/lib/scala-library.jar -classpath /Users/tyler/projects/scala-fun/src/main/scala/hello/target/scala-2.12/classes /Users/tyler/projects/scala-fun/src/main/scala/hello/HelloWorld.scala /Users/tyler/projects/scala-fun/src/main/scala/hello/Greeter.scala /Users/tyler/projects/scala-fun/src/main/scala/hello/Main.scala
