@@ -9,7 +9,7 @@ object CallByName {
     println("Getting time in nano seconds")
     System.nanoTime
   }
-  def delayed( t: => Long ): Unit = {
+  def delayed(t: => Long): Unit = {
     println("In delayed method")
     println("Param: " + t)
   }
